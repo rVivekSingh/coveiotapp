@@ -1,0 +1,31 @@
+Steps to test service
+======================
+Step-1:
+first register the user using below url
+http://localhost:8080/registerUser
+and request body should be in give format
+
+
+{
+    "name" : "Vivek Singh",
+    "emailId" : "vivek.rathor@gmail.com",
+    "pincode": 476001
+}
+
+After successfull registration user will get a mail notification with login id;
+
+Step-2:
+Using login id hit this post request
+
+http://localhost:8080/login
+{
+    "userId" : "<Received_Login_Id>"
+}
+
+Step-3:
+Click/Copy&paste received link in email to see details
+eg:http://localhost:8080/userDeatils?id=1
+
+if received link is clicked after 15 mins then it will not show any details, If it is within 
+15 mins then you will be able to see user details. 
+
