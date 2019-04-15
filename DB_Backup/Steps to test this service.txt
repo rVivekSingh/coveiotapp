@@ -23,7 +23,7 @@ http://localhost:8080/login
 }
 
 Step-3:
-Click/Copy&paste received link in email to see details
+Click/Copy&paste received link in email in browser to see details
 eg:http://localhost:8080/userDeatils?id=1
 
 if received link is clicked after 15 mins then it will not show any details, If it is within 

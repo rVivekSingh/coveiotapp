@@ -1,0 +1,8 @@
+For send mail functionality first need to configure these property values in
+src/main/resources/application.properties file
+
+email_host=
+email_port=
+email_authRequired=true
+email_authUsername=
+email_authPassword=
