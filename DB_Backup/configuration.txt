@@ -1,3 +1,9 @@
+To create DB you can create a DB schema with name coveiot_app and restore with the given .sql file.
+Or it can be done using by enabling 
+#spring.jpa.hibernate.ddl-auto = create
+
+in properties file. then comment it again.
+
 For send mail functionality first need to configure these property values in
 src/main/resources/application.properties file
 
